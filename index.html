@@ -31,9 +31,9 @@ layout: default
       <li><a href="#css-import">N'utilisez pas @import</a></li>
       <li><a href="#css-media-queries">Emplacement des media queries</a></li>
       <li><a href="#css-prefixed-properties">Propriétées prefixées</a></li>
-      <li><a href="#css-single-declarations">Règles avec une seule déclaration</a></li>
+      <li><a href="#css-single-declarations">Règles avec unique déclaration</a></li>
       <li><a href="#css-shorthand">Notation abrégées</a></li>
-      <li><a href="#css-nesting">Imbrication avec LESS et SASS</a></li>
+      <li><a href="#css-nesting">Imbrication avec Less et Sass</a></li>
       <li><a href="#css-comments">Commentaires</a></li>
       <li><a href="#css-classes">Classes</a></li>
       <li><a href="#css-selectors">Sélecteurs</a></li>
@@ -270,8 +270,8 @@ layout: default
 
 <div class="section" id="css-media-queries">
   <div class="col">
-    <h3>Media query placement</h3>
-    <p>Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document. Doing so only makes it easier for folks to miss them in the future. Here's a typical setup.</p>
+    <h3>Emplacement des media queries</h3>
+    <p>Placez les media queries le plus proche possible des règles qu'elles impactent. Ne les mettez pas toutes dans une feuille de style différente ou à la fin du document. En faisant ainsi, vous rendez la chose plus aisée pour les autres de ne pas les rater. Voici un exemple typique :</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/media-queries.css %}{% endhighlight %}
@@ -280,9 +280,9 @@ layout: default
 
 <div class="section" id="css-prefixed-properties">
   <div class="col">
-    <h3>Prefixed properties</h3>
-    <p>When using vendor prefixed properties, indent each property such that the declaration's value lines up vertically for easy multi-line editing.</p>
-    <p>In Textmate, use <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). In Sublime Text 2, use <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) and <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
+    <h3>Propriétés prefixées</h3>
+    <p>Lorsque vous utilisez des propriétés prefixées, indentez chaque propriété de telle manière que les déclarations s'alignent verticalement, de manière à rendre l'édition multi-ligne pour facile.</p>
+    <p>Sous TextMate, utilisez <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). Sous Sublime Text 2, utilisez <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) et <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/prefixed-properties.css %}{% endhighlight %}
@@ -291,9 +291,9 @@ layout: default
 
 <div class="section" id="css-single-declarations">
   <div class="col">
-    <h3>Single declarations</h3>
-    <p>In instances where a rule set includes <strong>only one declaration</strong>, consider removing line breaks for readability and faster editing. Any rule set with multiple declarations should be split to separate lines.</p>
-    <p>The key factor here is error detection—e.g., a CSS validator stating you have a syntax error on Line 183. With a single declaration, there's no missing it. With multiple declarations, separate lines is a must for your sanity.</p>
+    <h3>Règles avec unique déclaration</h3>
+    <p>Dans les cas où une règle ne contient <strong>qu'une seule déclaration</strong>, vous pouvez supprimer le saut de ligne pour faciliter la lecture et l'édition. Tout ensemble de règles avec plusieurs déclarations doit être découpé en plusieurs lignes.</p>
+    <p>L'élément important ici est la détection des erreurs — e.g., un validateur CSS qui vous indique que vous avez une erreur à la ligne 183. Avec une seule déclaration, vous ne pouvcez pas vous tromper. Avec plusieurs déclaration, il est indispensable de séparer les lignes si vous tenez à votre santé mentale.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/single-declarations.css %}{% endhighlight %}
@@ -302,8 +302,8 @@ layout: default
 
 <div class="section" id="css-shorthand">
   <div class="col">
-    <h3>Shorthand notation</h3>
-    <p>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:</p>
+    <h3>Notations abrégées</h3>
+    <p>Essayez de limiter l'utilisation de notations abrégées pour les cas où vous devez specifier explicitement toutes les valeurs. Les notations abrégées trop souvent abusées sont les suivantes :</p>
     <ul>
       <li><code>padding</code></li>
       <li><code>margin</code></li>
@@ -312,8 +312,8 @@ layout: default
       <li><code>border</code></li>
       <li><code>border-radius</code></li>
     </ul>
-    <p>Often times we don't need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
-    <p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
+    <p>Bien souvent vous n'avez pas besoin de spécifier toutes les valeurs qu'une notation abrégée vous propose. Par exemple, les entêtes de titre HTML ne définissent que des marges top et bottom, vous n'avez donc besoin que d'overrider ces valeurs. L'utilisation excessive des notations abrégées mène bien souvent à du code de mauvaise facture avec des overrides inutiles et des effets de bords non sollicités.</p>
+    <p>Le Mozilla Developer Network possède un très bon article sur <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">les notations abrégées</a> pour ceux qui ne sont pas familier avec leur syntaxe et comportement.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/shorthand.css %}{% endhighlight %}
@@ -322,8 +322,8 @@ layout: default
 
 <div class="section" id="css-nesting">
   <div class="col">
-    <h3>Nesting in Less and Sass</h3>
-    <p>Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.</p>
+    <h3>Imbrication avec Less et Sass</h3>
+    <p>Évitez les imbrications inutiles. Ce n'est pas parce que vous pouvez faire de l'imbrication que vous devez le faire. N'imbriquez que si vous devez définir un scope parent pour un style et s'il y a plusieurs éléments à imbriquer.</p>
   </div>
   <div class="col">
     {% highlight scss %}{% include css/nesting.scss %}{% endhighlight %}
@@ -332,9 +332,9 @@ layout: default
 
 <div class="section" id="css-comments">
   <div class="col">
-    <h3>Comments</h3>
-    <p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
-    <p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
+    <h3>Commentaires</h3>
+    <p>Le code est écrit et maintenu par des humains. Assurez-vous que votre code est auto-portant, bien commenté et compréhensible par d'autres. Les bons commentaires apportent du contexte et de l'information. Ne répétez pas simplement le nom du composant ou de la classe.</p>
+    <p>Assurez-vous d'écrire des phrases complètes pour les longs commentaires et des phrases simples pour les notes d'ordre général.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/comments.css %}{% endhighlight %}
@@ -343,16 +343,16 @@ layout: default
 
 <div class="section" id="css-classes">
   <div class="col">
-    <h3>Class names</h3>
+    <h3>Nom des classes</h3>
     <ul>
-      <li>Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., <code>.btn</code> and <code>.btn-danger</code>).</li>
-      <li>Avoid excessive and arbitrary shorthand notation. <code>.btn</code> is useful for <em>button</em>, but <code>.s</code> doesn't mean anything.</li>
-      <li>Keep classes as short and succinct as possible.</li>
-      <li>Use meaningful names; use structural or purposeful names over presentational.</li>
-      <li>Prefix classes based on the closest parent or base class.</li>
-      <li>Use <code>.js-*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
+      <li>N'utilisez que des minuscules et des tirets dans les noms des classes (pas d'underscore ou de camelCalse). Les tirets sont des séparateurs naturels dans les classes de même contexte (e.g., <code>.btn</code> et <code>.btn-danger</code>).</li>
+      <li>Évitez les notations abrégées excessives et arbitraires. <code>.btn</code> est utile pour un <em>button</em>, mais <code>.s</code> ne veut rien dire</li>
+      <li>Gardez les noms de classes aussi courts et succincts que possible.</li>
+      <li>Utilisez des noms qui ont du sens; préférez des noms expliquant la structure ou le but plutot que la présentation.</li>
+      <li>Préfixez les classes d'après le parent le plus proche ou la classe de base.</li>
+      <li>Utilisez des classes <code>.js-*</code> pour indiquer un comportement (par opposition à un style), mais laissez ces classes en dehors de votre CSS.</li>
     </ul>
-    <p>It's also useful to apply many of these same rules when creating Sass and Less variable names.</p>
+    <p>Il est aussi utilise d'appliquer la majorité de ces règles lorsque vous créez des nom de variable Less ou Sass.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/class-names.css %}{% endhighlight %}
@@ -361,17 +361,17 @@ layout: default
 
 <div class="section" id="css-selectors">
   <div class="col">
-    <h3>Selectors</h3>
+    <h3>Sélécteurs</h3>
     <ul>
-      <li>Use classes over generic element tag for optimum rendering performance.</li>
-      <li>Avoid using several attribute selectors (e.g., <code>[class^="..."]</code>) on commonly occuring components. Browser performance is known to be impacted by these.</li>
-      <li>Keep selectors short and strive to limit the number of elements in each selector to three.</li>
-      <li>Scope classes to the closest parent <strong>only</strong> when necessary (e.g., when not using prefixed classes).</li>
+      <li>Préférez les classes plutot que les noms de balises pour une performance de rendu optimale.</li>
+      <li>Évitez d'utiliser plusieurs attributs de sélécteur (e.g., <code>[class^="..."]</code>) sur des éléments apparaissant souvent dans la page. La performance du navigateur est impactée par ces sélecteurs.</li>
+      <li>Gardez vos sélecteurs courts et limitez le nombre d'élément dans chaque sélecteur à trois.</li>
+      <li>Encadrez vos classes par le parent le plus proche <strong>seulement</strong> quand cela est nécessaire (e.g., quand vous n'utilisez pas les classes préfixées).</li>
     </ul>
-    <p>Additional reading:</p>
+    <p>Plus d'informations :</p>
     <ul>
-      <li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Scope CSS classes with prefixes</a></li>
-      <li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Stop the cascade</a></li>
+      <li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Encadrez vos classes CSS avec des préfixes</a></li>
+      <li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Arrêtez la cascade</a></li>
     </ul>
   </div>
   <div class="col">
@@ -381,12 +381,12 @@ layout: default
 
 <div class="section" id="css-organization">
   <div class="col">
-    <h3>Organization</h3>
+    <h3>Organisation</h3>
     <ul>
-      <li>Organize sections of code by component.</li>
-      <li>Develop a consistent commenting hierarchy.</li>
-      <li>Use consistent white space to your advantage when separating sections of code for scanning larger documents.</li>
-      <li>When using multiple CSS files, break them down by component instead of page. Pages can be rearranged and components moved.</li>
+      <li>Organisez vos sections de code par composant.</li>
+      <li>Développez une hiérarchie de commentaires cohérente.</li>
+      <li>Utilisez les sauts de lignes de manière cohérente à votre avantage pour séparer les sections de code de manière à scanner le document plus facilement.</li>
+      <li>Lorsque vous utilisez plusieurs fichiers CSS, séparez-les par composant plutot que par pages. Les pages peuvent changer, et les composants sont plus flexibles.</li>
     </ul>
   </div>
   <div class="col">
@@ -396,14 +396,14 @@ layout: default
 
 <div class="section" id="css-editor-prefs">
   <div class="col">
-    <h3>Editor preferences</h3>
-    <p>Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:</p>
+    <h3>Préférences de votre éditeur</h3>
+    <p>Configurez votre éditeur avec la configuration suivante afin d'éviter les incohérences et les diffs sales :</p>
     <ul>
-      <li>Use soft-tabs set to two spaces.</li>
-      <li>Trim trailing white space on save.</li>
-      <li>Set encoding to UTF-8.</li>
-      <li>Add new line at end of files.</li>
+      <li>Utilisez une indentation douce de deux espaces.</li>
+      <li>Supprimez les espaces en fin de ligne à la sauvegarde du fichier.</li>
+      <li>Définissiez UTF-8 comme encodage.</li>
+      <li>Ajoutez un saut de ligne à la fin des fichiers.</li>
     </ul>
-    <p>Consider documenting and applying these preferences to your project's <code>.editorconfig</code> file. For an example, see <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">the one in Bootstrap</a>. Learn more <a href="http://editorconfig.org">about EditorConfig</a>.</p>
+    <p>Pensez à documenter et à appliquer ces préférences dans le fichier <code>.editorconfig</code> de votre projet. Par exemple, voici <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">celui de Bootstrap</a>. En savoir plus <a href="http://editorconfig.org">à propos de EditorConfig</a>.</p>
   </div>
 </div>
