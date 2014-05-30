@@ -1,32 +1,37 @@
-# Code Guide
+# Guide de Code
 
-Code Guide is a project for documenting standards for developing flexible, durable, and sustainable HTML and CSS. It comes from years of experience writing code on projects of all sizes. It's not the end-all be-all, but it's a start.
+Le Guide de Code est un projet de documentation de standards pour développer
+des fichiers HTML et CSS flexibles, durables et maintenables. Il provient
+d'années d'expérience à écrire du code pour des projets de toute taille. Ce
+n'est pas encore parfait, mais c'est un bon début.
 
-**[Start reading ☞](http://mdo.github.io/code-guide)**
+**[Commencer la lecture ☞](http://pixelastic.github.io/code-guide)**
 
 ---
 
-### License
+### Licence
 
-Released under MIT by, and copyright 2014, @mdo.
+Paru sous licence MIT par, et copyright 2041, @mdo.
 
-### Thanks
+### Remerciements
 
-Heavily inspired by [Idiomatic CSS](https://github.com/necolas/idiomatic-css) and the [GitHub Styleguide](http://github.com/styleguide).
+Grandement inspiré par [Idiomatic CSS](https://github.com/necolas/idiomatic-css) et le [GitHub Styleguide](http://github.com/styleguide).
 
-### Translations
+### Traductions
 
-Translations are maintained by their creators and may not always be up to date with the original here.
+Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
+à jour avec l'original.
 
-- [Chinese](http://zoomzhao.github.io/code-guide/) - Translated by [Zoom Zhao](https://github.com/ZoomZhao)
-- [Chinese, Traditional](http://juanitofatas.github.io/code-guide/) - Translated by [Juanito Fatas](https://github.com/JuanitoFatas)
-- [Czech](http://smedzlatko.github.io/) - Translated by [Martin Myslík](https://github.com/Smedzlatko)
-- [Indonesian](http://diagramatics.github.io/code-guide-id) - Translated by [Steven Sinatra](http://diagramatics.me)
-- [Italian](http://alessandro1997.github.io/code-guide/) - Translated by [Alessandro Desantis](https://github.com/alessandro1997)
-- [Portuguese](http://diegoeis.github.io/code-guide/) - Translated by [Diego Eis](http://tableless.com.br/)
-- [Russian](http://instanceofpro.github.io/code-guide/) - Translated by [Eugene Abrosimov](https://github.com/instanceofpro)
-- [Spanish](http://adrianayala.mx/code-guide/es/) - Translated by [Adrian Ayala](http://adrianayala.mx/)
+- [Chinois, Traditionel](http://juanitofatas.github.io/code-guide/) - Traduit par [Juanito Fatas](https://github.com/JuanitoFatas)
+- [Chinois](http://zoomzhao.github.io/code-guide/) - Traduit par [Zoom Zhao](https://github.com/ZoomZhao)
+- [Espagnol](http://adrianayala.mx/code-guide/es/) - Traduit par [Adrian Ayala](http://adrianayala.mx/)
+- [Indonésien](http://diagramatics.github.io/code-guide-id) - Traduit par [Steven Sinatra](http://diagramatics.me)
+- [Italien](http://alessandro1997.github.io/code-guide/) - Traduit par [Alessandro Desantis](https://github.com/alessandro1997)
+- [Portuguais](http://diegoeis.github.io/code-guide/) - Traduit par [Diego Eis](http://tableless.com.br/)
+- [Russe](http://instanceofpro.github.io/code-guide/) - Traduit par [Eugene Abrosimov](https://github.com/instanceofpro)
+- [Tchèque](http://smedzlatko.github.io/) - Traduit par [Martin Myslík](https://github.com/Smedzlatko)
 
-Have a translation you'd like to link to? Open a pull request to add it here. Be sure to keep it alphabetical.
+Vous avez une traduction que vous aimeriez ajouter ? Ouvrez une Pull Request,
+et ajoutez là ici. Assurez-vous de garder l'ordre alphabétique.
 
 <3
