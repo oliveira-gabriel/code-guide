@@ -9,6 +9,13 @@ n'est pas encore parfait, mais c'est un bon début.
 
 ---
 
+### A propos de cette traduction
+
+Cette traduction française à été initiée par
+[@pixelastic](https://twitter.com/pixelastic) d'après [le projet
+original](http://codeguide.co/)  de
+[@mdo](https://twitter.com/mdo).
+
 ### Licence
 
 Paru sous licence MIT par, et copyright 2041, @mdo.
