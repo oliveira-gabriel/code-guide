@@ -13,14 +13,14 @@ layout: default
       <li><a href="#html-syntax">Syntaxe</a></li>
       <li><a href="#html-doctype">Doctype HTML5</a></li>
       <li><a href="#html-lang">Attributs de langue</a></li>
-      <li><a href="#html-encoding">Encodage des caractères</a></li>
+      <li><a href="#html-encoding">Codage des caractères</a></li>
       <li><a href="#html-ie-compatibility-mode">Mode de compatibilité Internet Explorer</a></li>
       <li><a href="#html-style-script">Inclusions CSS et Javascript</a></li>
-      <li><a href="#html-practicality">Praticité plutôt que pureté</a></li>
+      <li><a href="#html-practicality">Pragmatisme avant pureté</a></li>
       <li><a href="#html-attribute-order">Ordre des attributs</a></li>
       <li><a href="#html-boolean-attributes">Attributs booléens</a></li>
-      <li><a href="#html-reducing-markup">Reduire le markup</a></li>
-      <li><a href="#html-javascript">Markup généré par Javascript</a></li>
+      <li><a href="#html-reducing-markup">Reduire le balisage</a></li>
+      <li><a href="#html-javascript">Balisage généré par Javascript</a></li>
     </ul>
   </div>
   <div class="col">
@@ -30,9 +30,9 @@ layout: default
       <li><a href="#css-declaration-order">Ordre des déclarations</a></li>
       <li><a href="#css-import">N'utilisez pas @import</a></li>
       <li><a href="#css-media-queries">Emplacement des media queries</a></li>
-      <li><a href="#css-prefixed-properties">Propriétées prefixées</a></li>
+      <li><a href="#css-prefixed-properties">Propriétés prefixées</a></li>
       <li><a href="#css-single-declarations">Règles avec unique déclaration</a></li>
-      <li><a href="#css-shorthand">Notation abrégées</a></li>
+      <li><a href="#css-shorthand">Notations abrégées</a></li>
       <li><a href="#css-nesting">Imbrication avec Less et Sass</a></li>
       <li><a href="#css-comments">Commentaires</a></li>
       <li><a href="#css-classes">Classes</a></li>
@@ -65,7 +65,7 @@ layout: default
   <div class="col">
     <h3>Syntaxe</h3>
     <ul>
-      <li>utilisez des indentations douces avec deux espaces — c'est le seul moyen de garantir que le code s'affichera de la même manière sous tous les environnements. </li>
+      <li>utilisez deux espaces pour l'indentation — c'est le seul moyen de garantir que le code s'affichera de la même manière sous tous les environnements. </li>
       <li>les éléments imbriqués doivent être indentés une fois (deux espaces).</li>
       <li>utilisez toujours des guillements doubles, jamais de guillemets simples, sur les attributs.</li>
       <li>n'utilisez pas de slash terminal sur les éléments auto-fermants — la <a href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">spécification html5</a> indique qu'ils sont optionnels.</li>
@@ -79,7 +79,7 @@ layout: default
 
 <div class="section" id="html-doctype">
   <div class="col">
-    <h3>Doctype HTML6</h3>
+    <h3>Doctype HTML5</h3>
     <p>Forcez le mode standard et donc un affichage plus cohérent dans tous les navigateurs possibles avec ce simple doctype au début de chaque page HTML.</p>
   </div>
   <div class="col">
@@ -105,7 +105,7 @@ layout: default
 <div class="section" id="html-ie-compatibility-mode">
   <div class="col">
     <h3>Mode de compatibilité IE</h3>
-    <p>Interne Explorer supporte l'utilisation d'une balise de compatibilité <code>&lt;meta&gt;</code> pour spécifier sous quelle version de IE la page devrait être rendue. Sauf cas exceptionnel, il est préférable de dire à IE d'utiliser le dernier mode de rendu supporté avec <strong>edge mode</strong>.</p>
+    <p>Internet Explorer supporte l'utilisation d'une balise de compatibilité <code>&lt;meta&gt;</code> pour spécifier sous quelle version de IE la page devrait être rendue. Sauf cas exceptionnel, il est préférable de dire à IE d'utiliser le dernier mode de rendu supporté avec le <strong>edge mode</strong>.</p>
     <p>Pour plus d'informations, <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">vous pouvez lire cet extraordinaire article sur Stack Overflow</a>.</p>
   </div>
   <div class="col">
@@ -115,8 +115,8 @@ layout: default
 
 <div class="section" id="html-encoding">
   <div class="col">
-    <h3>Encodage des caractères</h3>
-    <p>Assurez vous rapidement et facilement d'un bon rendu de votre contenu en déclarant de manière explicite l'encodage des caractères. En faisant ainsi, vous pouvez éviter d'utiliser des entités HTML, pour peu que leur encoding corresponde à celui du document (généralement UTF-8)</p>
+    <h3>Codage des caractères</h3>
+    <p>Assurez vous rapidement et facilement d'un bon rendu de votre contenu en déclarant de manière explicite le codage des caractères. En faisant ainsi, vous pouvez éviter d'utiliser des entités HTML, pour peu que leur encoding corresponde à celui du document (généralement UTF-8)</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/encoding.html %}{% endhighlight %}
@@ -141,8 +141,8 @@ layout: default
 
 <div class="section" id="html-practicality">
   <div class="col">
-    <h3>Praticité plutôt que pureté</h3>
-    <p>Tendez à maintenir les standards et la sémantique HTML, mais pas au dépends de la praticité. Autant que possible, cherchez à utiliser le moins de markup possible, avec le moins d'imbrication possible.</p>
+    <h3>Pragmatisme plutôt que pureté</h3>
+    <p>Tendez à maintenir les standards et la sémantique HTML, mais pas au dépends du pragmatisme. Autant que possible, cherchez à utiliser le moins de balisage possible, avec le moins d'imbrication possible.</p>
   </div>
 </div>
 
@@ -186,8 +186,8 @@ layout: default
 
 <div class="section" id="html-reducing-markup">
   <div class="col">
-    <h3>Réduire le markup</h3>
-    <p>Autant que possible, évitez les éléments parents inutile quand vous écrivez du HTML. Bien souvent, cela nécessite plusieurs passes et du refactoring, mais cela produit moins de HTML. Prenez l'exemple suivant :</p>
+    <h3>Réduire le balisage</h3>
+    <p>Autant que possible, évitez les éléments parents inutiles quand vous écrivez du HTML. Bien souvent, cela nécessite plusieurs passes et du refactoring, mais cela produit moins de HTML. Prenez l'exemple suivant :</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/reducing-markup.html %}{% endhighlight %}
@@ -196,8 +196,8 @@ layout: default
 
 <div class="section" id="html-javascript">
   <div class="col">
-    <h3>Markup généré par Javascript</h3>
-    <p>Écrire du markup dans un fichier Javascript rends son contenu plus difficile à trouver, plus difficile à éditer et moins performant. Évitez autant que possible.</p>
+    <h3>Balisage généré par Javascript</h3>
+    <p>Écrire du balisage dans un fichier Javascript rends son contenu plus difficile à trouver, plus difficile à éditer et moins performant. Évitez autant que possible.</p>
   </div>
 </div>
 
@@ -211,7 +211,7 @@ layout: default
   <div class="col">
     <h3>Syntaxe</h3>
     <ul>
-      <li>Utilisez une indentation douce avec deux espaces — c'est le seul moyen de garantir que le code s'affiche de la même manière sur tous les environnements.</li>
+      <li>Utilisez deux espaces pour l'indentation — c'est le seul moyen de garantir que le code s'affiche de la même manière sur tous les environnements.</li>
       <li>Lorsque vous regroupez des sélecteurs, laissez chaque sélecteur sur sa propre ligne.</li>
       <li>Ajouter un espace avant l'accolade d'ouverture de la déclaration pour la lisibilité.</li>
       <li>Placez les accolades de fermeture de la déclaration sur une nouvelle ligne.</li>
@@ -219,12 +219,12 @@ layout: default
       <li>Chaque déclaration doit apparaitre sur sa propre ligne pour un affichage des erreurs plus précis.</li>
       <li>Terminez vos déclarations par un point-virgule. Celui sur la dernière déclaration est optionnel mais votre code sera plus robuste aux erreurs en l'ajoutant.</li>
       <li>Les valeurs de propriétés séparées par des virgules doivent inclure un espace après chaque virgule (e.g., <code>box-shadow</code>).</li>
-      <li>N'ajoutez pas d'espace après les virgules <em>à l'intérieur de </em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, ou <code>rect()</code>. Cela permet de différencier de multiples valeurs de couleurs (virgule, sans espace), de multiples valeurs de propriétés (virgule, avec espac multiples valeurs de propriétés (virgule, avec espace).</li>
-      <li>Ne préfixez pas les valeurs de propriétés ou les paramètres de couleur avec un zéro (e.g., <code>.5</code> plutot que <code>0.5</code> et <code>-.5px</code> plutot que <code>-0.5px</code>).</li>
+      <li>N'ajoutez pas d'espace après les virgules <em>à l'intérieur de </em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, ou <code>rect()</code>. Cela permet de différencier les multiples valeurs de couleurs (virgule, sans espace) des multiples valeurs de propriétés (virgule, avec espace).</li>
+      <li>Ne préfixez pas les valeurs de propriétés ou les paramètres de couleur avec un zéro (e.g., <code>.5</code> plutôt que <code>0.5</code> et <code>-.5px</code> plutôt que <code>-0.5px</code>).</li>
       <li>Mettez toutes les valeurs hexadécimales en minuscule, e.g., <code>#fff</code>. Les lettres minuscules sont bien plus facile à repérer lorsqu'on scanne  visuellement un document car elles ont des formes plus uniques.</li>
-      <li>Utilisez les valeurs réduits hexadécimales dès que possible, e.g., <code>#fff</code> plutot que <code>#ffffff</code>.</li>
+      <li>Utilisez les valeurs réduites hexadécimales dès que possible, e.g., <code>#fff</code> plutôt que <code>#ffffff</code>.</li>
       <li>Mettez les valeurs des attributes entre double guillemets dans les sélecteurs, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">Ils sont optionnels dans certains cas</a>, mais c'est une bonne pratique pour la cohérence.</li>
-      <li>Évitez d'ajouter des unités quand la valeur est zéro, e.g., <code>margin: 0;</code> plutot que <code>margin: 0px;</code>.</li>
+      <li>Évitez d'ajouter des unités quand la valeur est zéro, e.g., <code>margin: 0;</code> plutôt que <code>margin: 0px;</code>.</li>
     </ul>
     <p>Vous avez des questions sur les termes employés ici ? Référez-vous à la <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">section sur la syntaxe de l'article sur les Cascading Style Sheets</a> sur Wikipedia.</p>
   </div>
@@ -239,12 +239,12 @@ layout: default
     <p>Les déclarations de propriétés similaires devraient être regroupées ensemble selon cet ordre :</p>
     <ol>
       <li>Positionnement</li>
-      <li>Modèle de boite</li>
+      <li>Modèle de boîte</li>
       <li>Typographie</li>
       <li>Visuel</li>
     </ol>
-    <p>Le positionnement vient en premier car cela peut retirer un élément du flux normal du document et overrider les styles relatifs au modèle de boite. Le modèles de boite vient ensuite car il influe sur les dimensions et le placement de l'élément.</p>
-    <p>Tout le reste agissant <em>à l'intérieur</em> de l'élement ou sans impacter les deux sections précédentes, ils viennent ensuite.</p>
+    <p>Le positionnement vient en premier car cela peut retirer un élément du flux normal du document et overrider les styles relatifs au modèle de boîte. Le modèle de boîte vient ensuite car il influe sur les dimensions et le placement de l'élément.</p>
+    <p>Tout le reste agissant <em>à l'intérieur</em> de l'élement ou sans impacter les deux sections précédentes, vient ensuite.</p>
     <p>Pour une liste complète des propriétés et leur ordre, merci de vous référer à <a href="http://twitter.github.com/recess">Recess</a>.</p>
   </div>
   <div class="col">
@@ -255,9 +255,9 @@ layout: default
 <div class="section" id="css-import">
   <div class="col">
     <h3>N'utilisez pas <code>@import</code></h3>
-    <p>Comparé à des <code>&lt;link&gt;</code>s, <code>@import</code> est plus lent, ajoute de nouvelles requêtes à la page et peut poser des problèmes imprévisibles. Évitez les autant que possible et optez plutot pour une approche alternative :</p>
+    <p>Comparé à des <code>&lt;link&gt;</code>s, <code>@import</code> est plus lent, ajoute de nouvelles requêtes à la page et peut poser des problèmes imprévisibles. Évitez-les autant que possible et optez plutôt pour une approche alternative :</p>
     <ul>
-      <li>Utilisez plusieurs éléments <code>&lt;link&gt;</code>/li>
+      <li>Utilisez plusieurs éléments <code>&lt;link&gt;</code></li>
       <li>Compilez votre CSS avec un pré-processeur, comme Sass ou Less dans un seul fichier.</li>
       <li>Concaténez votre CSS grâce aux fonctionnalités proposées par Rails, Jekyll ou d'autres environnements.</li>
     </ul>
@@ -281,7 +281,7 @@ layout: default
 <div class="section" id="css-prefixed-properties">
   <div class="col">
     <h3>Propriétés prefixées</h3>
-    <p>Lorsque vous utilisez des propriétés prefixées, indentez chaque propriété de telle manière que les déclarations s'alignent verticalement, de manière à rendre l'édition multi-ligne pour facile.</p>
+    <p>Lorsque vous utilisez des propriétés prefixées, indentez chaque propriété de telle manière que les déclarations s'alignent verticalement, de manière à rendre l'édition multi-ligne plus facile.</p>
     <p>Sous TextMate, utilisez <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). Sous Sublime Text 2, utilisez <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) et <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
   </div>
   <div class="col">
@@ -293,7 +293,7 @@ layout: default
   <div class="col">
     <h3>Règles avec unique déclaration</h3>
     <p>Dans les cas où une règle ne contient <strong>qu'une seule déclaration</strong>, vous pouvez supprimer le saut de ligne pour faciliter la lecture et l'édition. Tout ensemble de règles avec plusieurs déclarations doit être découpé en plusieurs lignes.</p>
-    <p>L'élément important ici est la détection des erreurs — e.g., un validateur CSS qui vous indique que vous avez une erreur à la ligne 183. Avec une seule déclaration, vous ne pouvcez pas vous tromper. Avec plusieurs déclaration, il est indispensable de séparer les lignes si vous tenez à votre santé mentale.</p>
+    <p>L'élément important ici est la détection des erreurs — e.g., un validateur CSS qui vous indique que vous avez une erreur à la ligne 183. Avec une seule déclaration, vous ne pouvez pas vous tromper. Avec plusieurs déclarations, il est indispensable de séparer les lignes si vous tenez à votre santé mentale.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/single-declarations.css %}{% endhighlight %}
@@ -346,13 +346,13 @@ layout: default
     <h3>Nom des classes</h3>
     <ul>
       <li>N'utilisez que des minuscules et des tirets dans les noms des classes (pas d'underscore ou de camelCalse). Les tirets sont des séparateurs naturels dans les classes de même contexte (e.g., <code>.btn</code> et <code>.btn-danger</code>).</li>
-      <li>Évitez les notations abrégées excessives et arbitraires. <code>.btn</code> est utile pour un <em>button</em>, mais <code>.s</code> ne veut rien dire</li>
+      <li>Évitez les notations abrégées excessives et arbitraires. <code>.btn</code> est utile pour un <em>button</em>, mais <code>.s</code> ne veut rien dire.</li>
       <li>Gardez les noms de classes aussi courts et succincts que possible.</li>
-      <li>Utilisez des noms qui ont du sens; préférez des noms expliquant la structure ou le but plutot que la présentation.</li>
+      <li>Utilisez des noms qui ont du sens; préférez des noms expliquant la structure ou le but plutôt que la présentation.</li>
       <li>Préfixez les classes d'après le parent le plus proche ou la classe de base.</li>
       <li>Utilisez des classes <code>.js-*</code> pour indiquer un comportement (par opposition à un style), mais laissez ces classes en dehors de votre CSS.</li>
     </ul>
-    <p>Il est aussi utilise d'appliquer la majorité de ces règles lorsque vous créez des nom de variable Less ou Sass.</p>
+    <p>Il est aussi utile d'appliquer la majorité de ces règles lorsque vous créez des noms de variable Less ou Sass.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/class-names.css %}{% endhighlight %}
@@ -361,12 +361,12 @@ layout: default
 
 <div class="section" id="css-selectors">
   <div class="col">
-    <h3>Sélécteurs</h3>
+    <h3>Sélecteurs</h3>
     <ul>
-      <li>Préférez les classes plutot que les noms de balises pour une performance de rendu optimale.</li>
-      <li>Évitez d'utiliser plusieurs attributs de sélécteur (e.g., <code>[class^="..."]</code>) sur des éléments apparaissant souvent dans la page. La performance du navigateur est impactée par ces sélecteurs.</li>
-      <li>Gardez vos sélecteurs courts et limitez le nombre d'élément dans chaque sélecteur à trois.</li>
-      <li>Encadrez vos classes par le parent le plus proche <strong>seulement</strong> quand cela est nécessaire (e.g., quand vous n'utilisez pas les classes préfixées).</li>
+      <li>Préférez les classes plutôt que les noms de balises pour une performance de rendu optimale.</li>
+      <li>Évitez d'utiliser plusieurs attributs de sélecteur (e.g., <code>[class^="..."]</code>) sur des éléments apparaissant souvent dans la page. La performance du navigateur est impactée par ces sélecteurs.</li>
+      <li>Gardez vos sélecteurs courts et limitez le nombre d'éléments dans chaque sélecteur à trois.</li>
+      <li>Encadrez vos classes par le parent le plus proche <strong>uniquement</strong> lorsque cela est nécessaire (e.g., quand vous n'utilisez pas les classes préfixées).</li>
     </ul>
     <p>Plus d'informations :</p>
     <ul>
@@ -386,7 +386,7 @@ layout: default
       <li>Organisez vos sections de code par composant.</li>
       <li>Développez une hiérarchie de commentaires cohérente.</li>
       <li>Utilisez les sauts de lignes de manière cohérente à votre avantage pour séparer les sections de code de manière à scanner le document plus facilement.</li>
-      <li>Lorsque vous utilisez plusieurs fichiers CSS, séparez-les par composant plutot que par pages. Les pages peuvent changer, et les composants sont plus flexibles.</li>
+      <li>Lorsque vous utilisez plusieurs fichiers CSS, séparez-les par composant plutôt que par page. Les pages peuvent changer, et les composants sont plus flexibles.</li>
     </ul>
   </div>
   <div class="col">
@@ -401,7 +401,7 @@ layout: default
     <ul>
       <li>Utilisez une indentation douce de deux espaces.</li>
       <li>Supprimez les espaces en fin de ligne à la sauvegarde du fichier.</li>
-      <li>Définissiez UTF-8 comme encodage.</li>
+      <li>Définissez UTF-8 comme codage de caracères.</li>
       <li>Ajoutez un saut de ligne à la fin des fichiers.</li>
     </ul>
     <p>Pensez à documenter et à appliquer ces préférences dans le fichier <code>.editorconfig</code> de votre projet. Par exemple, voici <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">celui de Bootstrap</a>. En savoir plus <a href="http://editorconfig.org">à propos de EditorConfig</a>.</p>
