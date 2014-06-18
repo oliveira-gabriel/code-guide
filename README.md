@@ -13,8 +13,10 @@ n'est pas encore parfait, mais c'est un bon début.
 
 Cette traduction française à été initiée par
 [@pixelastic](https://twitter.com/pixelastic) d'après [le projet
-original](http://codeguide.co/)  de
-[@mdo](https://twitter.com/mdo).
+original](http://codeguide.co/) de
+[@mdo](https://twitter.com/mdo). Le dernier commit original sur lequel la
+traduction est fondée est le
+[8b686ab](https://github.com/mdo/code-guide/commit/8b686ab97b9c5f6b6bb8789ea18cb2e8df6f3fbd).
 
 ### Licence
 
