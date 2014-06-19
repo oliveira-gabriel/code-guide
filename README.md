@@ -16,7 +16,7 @@ Cette traduction française à été initiée par
 original](http://codeguide.co/) de
 [@mdo](https://twitter.com/mdo). Le dernier commit original sur lequel la
 traduction est fondée est le
-[8b686ab](https://github.com/mdo/code-guide/commit/8b686ab97b9c5f6b6bb8789ea18cb2e8df6f3fbd).
+[142e2cf](https://github.com/mdo/code-guide/commit/142e2cf1d4d50e728209f933d8b9af1456f4e3c9).
 
 ### Licence
 
@@ -32,6 +32,7 @@ Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 à jour avec l'original.
 
 - [Chinois, Traditionel](http://juanitofatas.github.io/code-guide/) - Traduit par [Juanito Fatas](https://github.com/JuanitoFatas)
+- [Chinois](http://codeguide.bootcss.com/) - Traduit par [Wang Sai](https://github.com/wangsai)
 - [Chinois](http://zoomzhao.github.io/code-guide/) - Traduit par [Zoom Zhao](https://github.com/ZoomZhao)
 - [Espagnol](http://adrianayala.mx/code-guide/es/) - Traduit par [Adrian Ayala](http://adrianayala.mx/)
 - [Indonésien](http://diagramatics.github.io/code-guide-id) - Traduit par [Steven Sinatra](http://diagramatics.me)
