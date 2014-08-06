@@ -14,9 +14,7 @@ n'est pas encore parfait, mais c'est un bon début.
 Cette traduction française à été initiée par
 [@pixelastic](https://twitter.com/pixelastic) d'après [le projet
 original](http://codeguide.co/) de
-[@mdo](https://twitter.com/mdo). Le dernier commit original sur lequel la
-traduction est fondée est le
-[142e2cf](https://github.com/mdo/code-guide/commit/142e2cf1d4d50e728209f933d8b9af1456f4e3c9).
+[@mdo](https://twitter.com/mdo).
 
 ### Licence
 
@@ -37,6 +35,7 @@ Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 - [Espagnol](http://adrianayala.mx/code-guide/es/) - Traduit par [Adrian Ayala](http://adrianayala.mx/)
 - [Indonésien](http://diagramatics.github.io/code-guide-id) - Traduit par [Steven Sinatra](http://diagramatics.me)
 - [Italien](http://alessandro1997.github.io/code-guide/) - Traduit par [Alessandro Desantis](https://github.com/alessandro1997)
+- [Japonais](http://kia-king.com/code-guide/) - Traduit par [Kia King Ishii](https://github.com/kiaking)
 - [Portuguais](http://diegoeis.github.io/code-guide/) - Traduit par [Diego Eis](http://tableless.com.br/)
 - [Russe](http://instanceofpro.github.io/code-guide/) - Traduit par [Eugene Abrosimov](https://github.com/instanceofpro)
 - [Tchèque](http://smedzlatko.github.io/) - Traduit par [Martin Myslík](https://github.com/Smedzlatko)
