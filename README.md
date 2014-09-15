@@ -29,6 +29,7 @@ Grandement inspiré par [Idiomatic CSS](https://github.com/necolas/idiomatic-css
 Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 à jour avec l'original.
 
+- [Allemand](http://BackendButters.github.io/code-guide/) - Traduit par [BackendButters](https://github.com/BackendButters)
 - [Chinois, Traditionel](http://juanitofatas.github.io/code-guide/) - Traduit par [Juanito Fatas](https://github.com/JuanitoFatas)
 - [Chinois](http://codeguide.bootcss.com/) - Traduit par [Wang Sai](https://github.com/wangsai)
 - [Chinois](http://zoomzhao.github.io/code-guide/) - Traduit par [Zoom Zhao](https://github.com/ZoomZhao)
