@@ -33,6 +33,7 @@ Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 - [Chinois, Traditionel](http://juanitofatas.github.io/code-guide/) - Traduit par [Juanito Fatas](https://github.com/JuanitoFatas)
 - [Chinois](http://codeguide.bootcss.com/) - Traduit par [Wang Sai](https://github.com/wangsai)
 - [Chinois](http://zoomzhao.github.io/code-guide/) - Traduit par [Zoom Zhao](https://github.com/ZoomZhao)
+- [Coréen](http://code-guide.aliencube.org/) - Traduit par [Aliencube](https://github.com/aliencube
 - [Espagnol](http://adrianayala.mx/code-guide/es/) - Traduit par [Adrian Ayala](http://adrianayala.mx/)
 - [Indonésien](http://diagramatics.github.io/code-guide-id) - Traduit par [Steven Sinatra](http://diagramatics.me)
 - [Italien](http://alessandro1997.github.io/code-guide/) - Traduit par [Alessandro Desantis](https://github.com/alessandro1997)
