@@ -44,6 +44,7 @@ Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 - [Portuguais](http://diegoeis.github.io/code-guide/) - Traduit par [Diego Eis](http://tableless.com.br/)
 - [Russe](http://instanceofpro.github.io/code-guide/) - Traduit par [Eugene Abrosimov](https://github.com/instanceofpro)
 - [Tchèque](http://smedzlatko.github.io/) - Traduit par [Martin Myslík](https://github.com/Smedzlatko)
+- [Turc](http://kod-rehberi.hayatbiralem.com/) - Traduit par [Ömür Yanıkoğlu](http://hayatbiralem.com/)
 
 Vous avez une traduction que vous aimeriez ajouter ? Ouvrez une Pull Request,
 et ajoutez là ici. Assurez-vous de garder l'ordre alphabétique.
