@@ -42,7 +42,7 @@ Les traductions sont maintenues par leurs créateurs et ne sont pas toujours
 - [Japonais](http://kia-king.com/code-guide/) - Traduit par [Kia King Ishii](https://github.com/kiaking)
 - [Polonais](http://bondarewicz.github.io/code-guide/) - Traduit par [Łukasz Bondarewicz](https://github.com/bondarewicz)
 - [Portuguais](http://diegoeis.github.io/code-guide/) - Traduit par [Diego Eis](http://tableless.com.br/)
-- [Russe](http://instanceofpro.github.io/code-guide/) - Traduit par [Eugene Abrosimov](https://github.com/instanceofpro)
+- [Russe](http://sadcitizen.github.io/code-guide/) - Traduit par [Eugene Abrosimov](https://github.com/sadcitizen)
 - [Tchèque](http://smedzlatko.github.io/) - Traduit par [Martin Myslík](https://github.com/Smedzlatko)
 - [Turc](http://kod-rehberi.hayatbiralem.com/) - Traduit par [Ömür Yanıkoğlu](http://hayatbiralem.com/)
 
